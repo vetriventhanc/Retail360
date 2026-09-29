@@ -1,0 +1,55 @@
+{
+    "overall_passed": true,
+    "summary": {
+        "row_count": 536641,
+        "unique_invoices": 25900,
+        "unique_products": 4070,
+        "unique_customers": 4372,
+        "transaction_type_counts": {
+            "SALE": 526054,
+            "CANCELLATION": 9251,
+            "RETURN": 1336
+        }
+    },
+    "checks": {
+        "dataset_not_empty": {
+            "passed": true,
+            "details": "Rows found: 536641"
+        },
+        "required_columns_present": {
+            "passed": true,
+            "details": "All required columns exist."
+        },
+        "no_duplicate_rows": {
+            "passed": true,
+            "details": "Duplicate rows: 0"
+        },
+        "essential_fields_populated": {
+            "passed": true,
+            "details": "Rows missing essential fields: 0"
+        },
+        "numeric_fields_valid": {
+            "passed": true,
+            "details": {
+                "quantity": 0,
+                "unit_price": 0,
+                "line_total": 0
+            }
+        },
+        "invoice_dates_valid": {
+            "passed": true,
+            "details": "Invalid dates: 0"
+        },
+        "line_totals_correct": {
+            "passed": true,
+            "details": "Line total mismatches: 0"
+        },
+        "transaction_types_valid": {
+            "passed": true,
+            "details": {
+                "unexpected_types": [],
+                "missing_types": 0
+            }
+        }
+    }
+}
