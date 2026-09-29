@@ -166,3 +166,8 @@ PostgreSQL dimensional schema or a clear schema diagram
 The local PostgreSQL warehouse and Streamlit dashboard are running.
 Before publishing numeric findings, validate the sales definition and
 reconcile the `line_total` and `quantity * unit_price` calculations.
+
+
+## Dashboard Preview
+
+![Retail360 Dashboard](docs/dashboard.png)
