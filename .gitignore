@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local data and database backups
+*.xlsx
+*.csv
+*.dump
+*.sql
+*.bak
+
+# OS and editor
+.DS_Store
+Thumbs.db
